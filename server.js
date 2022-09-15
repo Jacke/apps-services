@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 const Bundler = require('parcel-bundler')
 const bundler = new Bundler('src/index.html')
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3005
 const Airtable = require('airtable-node')
 
 const airtable = new Airtable({
